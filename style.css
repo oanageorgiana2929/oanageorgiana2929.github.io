@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(228, 218, 244);
+}
+
+* { box-sizing: border-box; }
+.clearfix::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+/*Header*/
+.navbar{
+    background-color: rgb(187, 135, 208);
+}
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler{
+    border: 2px solid white;
+}
+
+.nav-item .nav-link{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.navbar-logo{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+/*About me*/
+#section1{
+    margin-bottom: 50px;
+}
+
+#section1 .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#section1 .tel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#section1 .tel a{
+    text-decoration: none;
+    color: #fff; 
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#section1 .tel a:hover{
+    color:blue;
+}
+
+.contact h3{
+        padding-bottom: 10px;
+}
+
+.cv-button{
+    border-radius: 20px;
+    border: 3px solid currentColor ;
+    font-size: 20px;
+    color: rgb(187, 135, 208) ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.cv-button:hover{
+        transform: scale(1.05);
+        will-change: transform;
+        color:white;
+        border: 4px solid transparent;
+        background-color:rgb(228, 218, 244);
+}
+
+.img-me{
+    width: 300px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.name{
+    color: blueviolet;
+    
+}
+
+h1{ color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 10px 10px 5px rgb(228, 225, 228);
+    border-radius: 15px 50px 30px;
+}
+
+@media(max-width: 1000px) {
+    .img-me{ width: 200px;
+    }
+ 
+ } 
+
+ @media(max-width: 1000px) {
+    #section1 .tel{
+        flex-direction: column;
+        padding-top: 10px;
+        align-items: center;
+    }
+ 
+ } 
+
+@media(max-width: 566px) {
+   .img-me{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   }
+
+}
+
+/*Programming*/
+#section2 {
+   background-color: #fff;
+   margin-top: 0px;
+   padding-top: 0px;
+}
+
+
+#section2 .skills{
+    border-radius: 30px;
+    background-color: rgb(187, 135, 208);
+    
+}
+
+
+#section2 .skills:hover{
+    background-color: rgb(187, 135, 208);
+    opacity: 0.5;
+    transform: rotateY(150deg);
+} 
+
+#section2 .container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.programming h1{
+    text-align: center;
+    padding-top: 50px;
+}
+/* Portofolio */
+#section3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img-portofolio img{
+    width: 500px;
+    margin-top: 2rem;
+    
+}
+.img-portofolio:hover{ 
+    transform: scale(1.5);
+    }
+.portofolio-button{
+    border-radius: 20px;
+    border: 3px solid currentColor ;
+    font-size: 20px;
+    color: rgb(187, 135, 208) ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    display: block;
+}
+.portofolio-button a{
+    text-decoration: none;
+    color: rgb(187, 135, 208) ;
+}
+
+.portofolio-button:hover{
+    transform: scale(1.05);
+    will-change: transform;
+    color:white;
+    border: 4px solid transparent;
+    background-color:rgb(228, 218, 244);
+}
+@media(max-width: 1400px) {
+    .img-portofolio img{
+        width: 400px
+    }
+}
+
+@media(max-width: 1400px) {
+    .img-portofolio img{
+        width: 300px
+    }
+}
+
+@media(max-width: 780px) {
+    .img-portofolio img{
+        width: 250px;
+    }
+}
+
+@media(max-width: 600px) {
+    .portofolio{ display: flex;
+        flex-direction: column;
+      
+    }
+}
+
+/*Footer */
+
+footer{
+    padding: 3px;
+    background-color: rgb(187, 135, 208);
+    color: #fff;
+    text-align: center;
+}
+
