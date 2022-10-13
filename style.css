@@ -163,7 +163,6 @@ h1{ color: white;
 /* Portofolio */
 #section3 {
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .card-body > h3 {text-align: center;}
@@ -174,9 +173,6 @@ h1{ color: white;
     border: 2px solid rgba(187, 135, 208,0.2);
 }
 
-.img-portofolio:hover{ 
-    transform: scale(1.5);
-    }
 
 @media(max-width: 1400px) {
     .img-portofolio img{
